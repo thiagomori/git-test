@@ -6,5 +6,5 @@
  */
 
   echo 12314;
-  echo '<h1><b><center><font color= "blue"> Thiago</font></center></b></h1>';
+  echo '<h1><b><center><font color= "blue">   Thiago</font></center></b></h1>';
 ?>
