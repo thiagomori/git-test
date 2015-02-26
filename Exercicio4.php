@@ -1,3 +1,4 @@
+Exercicio 1
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,3 +36,22 @@
         </body>  
       
 </html>
+<hr></hr>
+
+exercicio 2
+
+<?php
+    $num=2;
+    $cont=0;
+    for($i=1;$i<=$num;$i++)
+    {
+        if($num % $i==0){
+        $cont=$cont+1; }
+    }
+        if($cont==2){
+            echo"<b>Este número é primo</b>";
+        }
+        else{
+            echo"<b>Não é primo</b>"; }  
+?>
+<hr></hr>
