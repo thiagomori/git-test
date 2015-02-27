@@ -23,19 +23,17 @@ Exercicio 1
                            
                         } else {
                             echo'<tr>    
-                        
-                                <td>id</td>
-                                <td>nome</td>
-                                <td>desc</td>
-                            </tr>';
-                        
-                    }
+                                 <td>id</td>
+                                 <td>nome</td>
+                                 <td>desc</td>
+                                 </tr>';
+                        }
                     }
                 ?>
             </table>
         </body>  
-      
 </html>
+
 <hr></hr>
 
 exercicio 2
@@ -55,3 +53,17 @@ exercicio 2
             echo"<b>Não é primo</b>"; }  
 ?>
 <hr></hr>
+
+exercicio 3
+
+<?php
+    $n=10;
+    $a=0;
+    $b=1;
+    $soma=$a+$b;
+    if($soma<$n){
+        $a=$b;
+        $b=$soma;
+    }
+   
+?>
