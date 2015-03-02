@@ -57,13 +57,23 @@ exercicio 2
 exercicio 3
 
 <?php
-    $n=10;
-    $a=0;
-    $b=1;
-    $soma=$a+$b;
-    if($soma<$n){
-        $a=$b;
-        $b=$soma;
-    }
-   
+     $n=8;
+     $ant=0;
+     $result=1;
+     $aux=0;
+        if($n==1){
+          $result=0;
+          echo $result;
+        }
+        else{
+        for($cont=1;$cont<$n;$cont++)
+        {
+          echo $ant;
+          $aux=$ant+$result;
+          $ant=$result;
+          $result=$aux;
+        }
+        }
+        echo $ant;
+  
 ?>
